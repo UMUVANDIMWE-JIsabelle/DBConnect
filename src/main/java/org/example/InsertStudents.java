@@ -15,18 +15,18 @@ public class InsertStudents {
             PreparedStatement stmt = conn.prepareStatement(sql);
 
             // First student
-            stmt.setString(1, "Alice Smith");
-            stmt.setString(2, "123 Main Street");
+            stmt.setString(1, "Alice Second");
+            stmt.setString(2, "Germany");
             stmt.executeUpdate();
 
             // Second student
             stmt.setString(1, "Bob Johnson");
-            stmt.setString(2, "456 Oak Avenue");
+            stmt.setString(2, "France");
             stmt.executeUpdate();
 
             // Third student
             stmt.setString(1, "Charlie Brown");
-            stmt.setString(2, "789 Pine Road");
+            stmt.setString(2, "Rwanda");
             stmt.executeUpdate();
 
             System.out.println("Students inserted successfully!");
