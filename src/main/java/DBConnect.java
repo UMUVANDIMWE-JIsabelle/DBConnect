@@ -10,7 +10,7 @@ public class DBConnect {
 
             Statement statement= connection.createStatement();
 
-            ResultSet resultSet= statement.executeQuery("select * from students");
+            ResultSet resultSet= statement.executeQuery(" select * from students ");
 
             while (resultSet.next()){
                 System.out.println(resultSet.getInt(1) + " "+ resultSet.getString( 2)+ " "+ (resultSet.getString( 3)));
