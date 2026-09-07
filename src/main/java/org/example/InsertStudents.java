@@ -1,4 +1,4 @@
-// All imports go here, at the very top
+
 package org.example;
 import java.sql.Connection;
 import java.sql.DriverManager;
