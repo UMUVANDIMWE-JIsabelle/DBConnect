@@ -43,13 +43,14 @@ INSERT INTO students (first_name, last_name) VALUES
 ('Alice', 'Smith'),
 ('Bob', 'Johnson'),
 ('Charlie', 'Brown');
+```
 ## Add the JDBC driver
 
 - Download **MySQL Connector/J** from the official MySQL site.  
 - Place the JAR file in a `lib/` folder inside your project.
 
 ---
-
+```
 ## Compile and Run
 
 From the project root:
